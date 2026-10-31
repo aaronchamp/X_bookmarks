@@ -7,3 +7,5 @@ Agents: read [AGENTS.md](AGENTS.md) first, then [docs/WORKFLOW.md](docs/WORKFLOW
 ```bash
 bash scripts/verify.sh
 ```
+
+GitHub Actions runs that same command on every push to `main` and on every pull request ([.github/workflows/verify.yml](.github/workflows/verify.yml)).
